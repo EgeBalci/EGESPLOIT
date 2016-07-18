@@ -32,3 +32,7 @@
             ThreadExecute(Shellcode) : Function executes the given shellcode(byte array) with CreateThread function.
 
             WifiList() : Functions returns he wifi connection history.
+            
+            #RSE#
+            RSE stands for "Reduced Sized Exploits", functions under RSE folder are build with windows api calls for reducing payload sizes.
+      
